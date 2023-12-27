@@ -1,0 +1,11 @@
+##This function computes the sum of the first n natural numbers
+def Gauss_sum(n):
+    Gauss_result = ((n)*(n + 1))/2
+    return Gauss_result
+
+#This function computes the sum of the squares of the first n natural numbers
+def Sum_of_squares(n):
+    sos_result = ((n)*(n + 1)*(2*n + 1))/6
+    return sos_result
+    
+print(pow(Gauss_sum(100),2) - Sum_of_squares(100))
